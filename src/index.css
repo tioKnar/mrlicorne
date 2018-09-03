@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#bgColor {
+	margin-top: 150px;
+	background-color: white;
+}
+
+.image-gallery {
+	width: 100%
+}
+
+.image-gallery-slides {
+	max-height: 65vh;
+}
+
+
+.homeCard {
+	z-index: 9999;
+	margin-top: 10vh;
+	box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+.particlesSky {
+	position: relative;
+}
+
+canvas {
+	height: 100vh !important;
+}
